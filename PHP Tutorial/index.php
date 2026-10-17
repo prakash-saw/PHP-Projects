@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Php Tutorial</title>
+    <title>PHP Tutorial</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&display=swap" rel="stylesheet">
@@ -12,7 +12,7 @@
   <body>
     <nav class="navbar md:navbar-expand bg-1">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Php Tutorial</a>
+            <a class="navbar-brand" href="#">PHP Tutorial</a>
             <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarDrawer" aria-controls="navbarDrawer" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon" aria-hidden="true"></span>
             </button>
@@ -27,17 +27,24 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#variable">Variables</a>
+                    <a class="nav-link" href="#datatypes">Datatypes</a>
+                    <a class="nav-link" href="#string-functions">String Functions</a>
+                    <a class="nav-link" href="#operators">Operators</a>
+                    <a class="nav-link" href="#array-functions">Array Functions</a>
+                    <a class="nav-link" href="#php-forms">PHP Forms</a>
+                    <a class="nav-link" href="#phpmyadmin">phpMyAdmin</a>
                 </li>
                 <li class="nav-item">
                     <button class="nav-link" type="button" data-bs-toggle="menu" aria-expanded="false">
                     Menu
                     </button>
                     <div class="menu">
-                    <a class="menu-item" href="#">Action</a>
-                    <a class="menu-item" href="#">Another action</a>
+                    <a class="menu-item" href="#if-else">If-Else</a>
+                    <a class="menu-item" href="#switch">Switch</a>
+                    <a class="menu-item" href="#loops">Loops</a>
                     <hr class="menu-divider">
-                    <a class="menu-item" href="#">Something else here</a>
+                    <a class="menu-item" href="#functions">Functions</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -56,7 +63,7 @@
     </nav>
     <div class="container">
         <div class="sub-container">
-            <h2>Php Programming</h2>
+            <h2>PHP Programming</h2>
             <p>PHP is a popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.</p>
             <p>PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages. PHP is a widely-used, free, and efficient alternative to competitors such as Microsoft's ASP.</p>
             <p>PHP is an acronym for "PHP: Hypertext Preprocessor". PHP code is usually processed on a web server by a PHP interpreter implemented as a module, a daemon, or as a Common Gateway Interface (CGI) executable. On a web server, the result of the interpreted and executed PHP code which may be any type of data, such as generated HTML or binary image data would form the whole or part of an HTTP response. Various web template systems, web content management systems, and web frameworks exist which can be employed to orchestrate or facilitate the generation of that response.</p>
@@ -78,7 +85,7 @@
             ?>
         </div>
 
-        <div class="sub-container">
+        <div class="sub-container" id="variable">
             <h2>Variable in PHP</h2>
             <h4>Rules for creating variables in PHP</h4>
             <ul>
@@ -106,7 +113,7 @@
             ?>
         </div>
         
-        <div class="sub-container">
+        <div class="sub-container" id="datatypes">
             <h2>Datatypes in PHP</h2>
             <h4>Primitive Datatypes</h4>
             <ul>
